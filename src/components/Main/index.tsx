@@ -5,10 +5,7 @@ const Main = ({
   description = 'TypeScript, ReactJS, NextJS e Styled Components com StoryBook'
 }) => (
   <S.Wrapper>
-    <S.Logo
-      src="/img/logo.png"
-      alt="Imagem de um átomo e React Avançado escrito ao lado"
-    />
+    <S.Logo src="/img/logo.svg" alt="Imagem de um átomo" />
     <S.Title>{title}</S.Title>
     <S.Description>{description}</S.Description>
     <S.Illustration
